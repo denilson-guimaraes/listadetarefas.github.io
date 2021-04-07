@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lista de tarefas</title>
+
+   <link rel="stylesheet" href="./style.css">
+</head>
+
+<body onload="loadList()">
+   <div id="container">
+
+      <h1 id="mainTitle">LISTA DE TAREFAS</h1>
+
+      <div id="input">
+
+         <input type="text" name="newAssignment" id="inputAssignment" />
+         <button onclick="addList()" id="addBtn"><img src="./icons/plus.svg" alt="Adicionar"></button>
+      </div>
+      <div id="assignments">
+         <!-- <div class="assignment">
+            <p>Lavar o carro</p>
+            <img src="./icons/x.svg" alt="Excluir">
+         </div>
+         <div class="assignment">
+            <p>Dar comida para o gato</p>
+            <img src="./icons/x.svg" alt="Excluir">
+         </div> -->
+      </div>
+      <div id="footer">
+         <p class="status">Terefas</p>
+         <button class="clearAssignments">LIMPAR</button>
+
+      </div>
+   </div>
+
+   <script src="./script.js"></script>
+</body>
+
+</html>

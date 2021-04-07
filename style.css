@@ -1,0 +1,123 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+textarea:focus, input:focus, button:focus {
+   box-shadow: 0 0 0 0;
+   outline: 0;
+   }
+
+body {
+   background: #BDD1F8;
+
+   font-family: sans-serif;
+   width: 100%;
+
+}
+
+
+/* continer ================================ */
+#container {
+   margin: 10% auto;
+   width: min(600px, 70%);
+
+   background: #FFF;
+
+   padding: 15px;
+   border-radius: 15px;
+}
+
+#mainTitle{
+   text-align: center;
+   padding: 10px;
+   color: #807E7E;
+}
+
+/* INPUT ================================= */
+#input {
+   display: flex;
+   justify-content: space-between;
+   margin: 5px auto;
+   padding: 10px 0;
+}
+
+#inputAssignment {
+   background: #FFF;
+   padding: 10px;
+   width: 85%;
+   
+   border-radius: 15px;
+
+   border: solid 3px #D0D0D0;
+
+   color: #807E7E;
+}
+
+#addBtn {
+   width:50px;
+   height:50px;
+
+   margin-left: 5px;
+
+   border: none;
+   background: #209849;
+   cursor: pointer;
+   border-radius: 15px;
+}
+
+#addBtn img {
+   width:20px;
+}
+
+/* Assignment ------------------------------------ */
+.assignments {
+   padding: 10px;
+   margin: 5px;
+   width: 95%;
+}
+
+.assignment {
+   background: #E5E5E5;
+   height: 50px;
+   padding: 10px;
+   margin: 5px 0;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 15px;
+   
+   color: #807E7E;
+}
+
+.assignment img{
+   width: 20px;
+   cursor: pointer;
+   
+}
+
+/* Footer ========================================= */
+#footer {
+   margin-top: 15px;
+   display: flex;
+   justify-content: space-between;
+   color: #807E7E;
+
+   font-size: 20px;
+   align-items: center;
+   background: #E5E5E5;
+   padding: 15px;
+   border-radius: 15px;
+}
+
+.clearAssignments {
+   font-size:20px;
+   color: #FFF;
+   background: #DB1919;
+   border-radius: 15px;
+   padding: 15px;
+   border: none;
+   cursor: pointer;
+}
